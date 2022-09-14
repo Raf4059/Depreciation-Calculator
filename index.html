@@ -4,12 +4,12 @@
   
   
 <script>
-function add()
+function sub()
 {
-  var numOne, numTwo, sum;
+  var numOne, numTwo, sub;
   numOne = parseInt(document.getElementById("first").value);
   numTwo = parseInt(document.getElementById("second").value);
-  sum = numOne - numTwo;
+  sub = numOne - numTwo;
   document.getElementById("answer").value = sum;
 }
 </script>
@@ -24,7 +24,7 @@ function add()
 <p>Enter the value after a period of time: <input id="second"></p>
   
   
-<button onclick="add()">Calculate</button>
+<button onclick="sub()">Calculate</button>
   
   
 <p>Depreciation = <input id="answer"></p>
